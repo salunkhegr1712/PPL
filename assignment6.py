@@ -1,4 +1,4 @@
-import turtle as tt
+import turtle 
 
 s = turtle.getscreen()
 t = turtle.Turtle()
@@ -58,6 +58,6 @@ class triangle(polygon):
         t.forward(x.length)
 
 
-hex1 = hexagon(6, 100)
-hex1.info()
-hex1.show()
+figure= hexagon(6, 100)
+figure.info()
+figure.show()
